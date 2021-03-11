@@ -14,14 +14,24 @@
     <a-scene physics="gravity: -9.8">
         <!--Creamos nuestra biblioteca de assets-->
         <a-assets>
-          <img id="modern_buildings_night" src="venice_sunset_8k.png">
-          <audio id="musica" src="ambiente.mp3" preload="auto"></audio>
-          <a-asset-item id="apartamento-o" src="./assets/apart.obj"></a-asset-item>
-          <a-asset-item id="apartamento-m" src="./assets/apart.mtl"></a-asset-item>
+          <img id="modern_buildings_night" src="hansaplatz_4k.png">
+          <!--audio id="musica" src="ambiente.mp3" preload="auto"></audio-->
+          <a-asset-item id="apartamento-o" src="./assets/vacio.obj"></a-asset-item>
+          <a-asset-item id="apartamento-m" src="./assets/vacio.mtl"></a-asset-item>
+          <a-asset-item id="tv-o" src="./assets/3d-model.obj"></a-asset-item>
+          <a-asset-item id="tv-m" src="./assets/3d-model.mtl"></a-asset-item>
+          <a-asset-item id="bed-o" src="./assets/Cama/model.obj"></a-asset-item>
+          <a-asset-item id="bed-m" src="./assets/Cama/materials.mtl"></a-asset-item>
+          <a-asset-item id="sof" src="./assets/sof/scene.gltf"></a-asset-item>
+          <a-asset-item id="cocina" src="./assets/cocina/scene.gltf"></a-asset-item>
         </a-assets>
         <a-entity obj-model="obj: #apartamento-o; mtl: #apartamento-m" position="-10 0 8"></a-entity>
+        <a-entity gltf-model="#sof" scale="2.3 2.3 2.3" position="4 0.5 -5"></a-entity>
+        <a-entity gltf-model="#cocina" scale="1 1 1" position="0 0 5.5" rotation="0 90 0"></a-entity>
+        <a-entity obj-model="obj: #bed-o; mtl: #bed-m" position="-6 4 -3.3" scale="6 6 6" rotation="0 180 0"></a-entity>
+        <a-entity obj-model="obj: #tv-o; mtl: #tv-m"  position="3 0.6 1" scale="0.07 0.07 0.07" rotation="0 180 0"></a-entity>
         <!--Importamos a la escena el modelo 3D-->
-        <a-sky src="#modern_buildings_night" rotation="0 90 0" radius="100"></a-sky>
+        <a-sky src="#modern_buildings_night" rotation="0 0 0" ></a-sky>
         
         <a-entity id="rig" movement-controls kinematic-body>
             <a-entity camera sound="src: #musica; autoplay: true; volume:0.3; loop:true" position="0 1.8 0" look-controls="pointerLockEnabled: true"></a-entity>
