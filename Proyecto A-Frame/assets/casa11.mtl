@@ -29,7 +29,7 @@ Ka 0.000000 0.000000 0.000000
 Kd 0.709804 0.709804 0.705882
 Ks 0.330000 0.330000 0.330000
 d 0.600000
-map_Kd vacio/Translucent_Glass_Gold.jpg
+map_Kd casa11/Translucent_Glass_Gold.jpg
 
 newmtl _5
 Ka 0.000000 0.000000 0.000000
@@ -40,7 +40,7 @@ newmtl PDM_American_Railing_Special_Architectural_Glass_ARS66A_Material_01
 Ka 0.000000 0.000000 0.000000
 Kd 0.721569 0.729412 0.717647
 Ks 0.330000 0.330000 0.330000
-map_Kd vacio/PDM_American_Railing_Special_Architectural_Glass_ARS66A_Material_01.jpg
+map_Kd casa11/PDM_American_Railing_Special_Architectural_Glass_ARS66A_Material_01.jpg
 
 newmtl Mtl_Stainless_Steel
 Ka 0.000000 0.000000 0.000000
@@ -51,7 +51,7 @@ newmtl PDM_Pine_01
 Ka 0.000000 0.000000 0.000000
 Kd 0.474510 0.364706 0.254902
 Ks 0.330000 0.330000 0.330000
-map_Kd vacio/PDM_Pine_01.jpg
+map_Kd casa11/PDM_Pine_01.jpg
 
 newmtl _Color_007_1
 Ka 0.000000 0.000000 0.000000
@@ -86,17 +86,23 @@ newmtl pape__9_
 Ka 0.000000 0.000000 0.000000
 Kd 0.921569 0.909804 0.886275
 Ks 0.330000 0.330000 0.330000
-map_Kd vacio/pape__9_.png
+map_Kd casa11/pape__9_.png
 
 newmtl glass
 Ka 0.000000 0.000000 0.000000
-Kd 0.196078 0.223529 0.274510
+Kd 0.847059 0.819608 0.756863
 Ks 0.330000 0.330000 0.330000
-map_Kd vacio/glass.jpg
+map_Kd casa11/glass.jpg
 
-newmtl Sketchy_Stone_Ashlar
+newmtl Leather_Red_Brown
 Ka 0.000000 0.000000 0.000000
-Kd 0.658824 0.658824 0.658824
+Kd 0.568627 0.490196 0.403922
 Ks 0.330000 0.330000 0.330000
-map_Kd vacio/Sketchy_Stone_Ashlar.jpg
+map_Kd casa11/Leather_Red_Brown.jpg
+
+newmtl Wallpaper_Dog_Bone
+Ka 0.000000 0.000000 0.000000
+Kd 0.666667 0.627451 0.580392
+Ks 0.330000 0.330000 0.330000
+map_Kd casa11/Wallpaper_Dog_Bone.jpg
 
