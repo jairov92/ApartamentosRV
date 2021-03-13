@@ -28,6 +28,9 @@
           <a-asset-item id="CG" src="./assets/CamaGaming/scene.gltf"></a-asset-item>
           <a-asset-item id="CG" src="./assets/MesaGamer/scene.gltf"></a-asset-item>
           <a-asset-item id="CG1" src="./assets/MesaTv/scene.gltf"></a-asset-item>
+          <a-asset-item id="closet" src="./assets/closet/scene.gltf"></a-asset-item>
+          <a-asset-item id="armchair" src="./assets/armchair/scene.gltf"></a-asset-item>
+          <a-asset-item id="bathroom" src="./assets/bathroom/scene.gltf"></a-asset-item>
         </a-assets>
         <a-entity obj-model="obj: #apartamento-o; mtl: #apartamento-m" position="-10 0 8"></a-entity>
         <a-entity gltf-model="#sof" scale="2.3 2.3 2.3" position="4 0.5 -5"></a-entity>
@@ -38,7 +41,10 @@
         <a-entity gltf-model="./assets/CamaGaming/scene.gltf" scale="0.01233 0.01233 0.01233" position="-7.81821 3.44046 -4.49801" rotation="0 94.07336742473474 0"></a-entity>
         <a-entity gltf-model="./assets/MesaGamer/scene.gltf" scale="0.13232 0.13232 0.13232" position="-7.81355 3.93858 2.48274" rotation="1.193471087257505 90.89115983057813 -0.23605861159389918"></a-entity>
         <a-entity gltf-model="./assets/MesaTv/scene.gltf" scale="0.01699 0.01881 0.01881" position="2.43847 -0.3222 0.76038" rotation="0.33632622574179327 176.03727184937952 1.1694068598620102"></a-entity>
-        
+        <a-entity gltf-model="#closet" scale="0.0015 0.0015 0.0015" position="-9.236 3.448 -1.488" rotation="-180.000 -90.000 -180"></a-entity>
+        <a-entity gltf-model="#armchair" scale="0.002 0.002 0.002" position="6.085 0.004 -1.867" rotation="0.000 -51.7250.000"></a-entity>
+        <a-entity gltf-model="#bathroom" scale="1.3 1.3 1.3" position="-7.932 0.020 -4.146" rotation="0 0 -0.329" ></a-entity>
+
         
         <!--Importamos a la escena el modelo 3D-->
         <a-sky src="#modern_buildings_night" rotation="0 0 0" ></a-sky>
@@ -68,7 +74,9 @@
         <a-box static-body position="-3.346 0.424 -6.042" scale="2.541 1.500 0.201" opacity="0.0"></a-box>
         <a-box static-body position="-5.741 3.940 -3.426" scale="1.981 0.216 1.000" opacity="0.0"></a-box>
         <a-box static-body position="-8.263 4.048 2.643" scale="0.720 1.000 3.413" opacity="0.0"></a-box>
-        
+        <a-box static-body="sphereRadius: NaN" position="-9.27193 4.35275 -1.48426" scale="0.05165 1.77571 1.54369" opacity="0.0"></a-box>
+        <a-plane static-body position="6.152 0.000 -2.060" scale="0.074 1.000 1.000"></a-plane>
+
     </a-scene>
 </body>
 </html>
