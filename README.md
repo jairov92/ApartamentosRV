@@ -1,6 +1,6 @@
 # ApartamentosRV
 
-Proyecto guiado para el sector de venta de casas y apartamentos para las personas de estrato 6, esta experiencia cuenta con una vista de realidad virtual en la que el espectador puede explorar uno de los apartamentos que se encuentra en oferta, el proyecto esta montado con a-frame y los modelos están realizados en sketchup, el modelo cuenta con un amueblado y con una cercanía con la realidad muy favorable
+Proyecto guiado para el sector de venta de casas y apartamentos para las personas de estrato 6, esta experiencia cuenta con una vista de realidad virtual en la que el espectador puede explorar uno de los apartamentos que se encuentra en oferta, el proyecto está montado con a-frame y los modelos están realizados en sketchup, el modelo cuenta con un amueblado y con una cercanía con la realidad muy favorable
 
 ## Comenzando 🚀
 
@@ -19,91 +19,85 @@ Abre con live server y explora la realidad virtual con A-frame
 
 ### Proceso de creación  🔧
 
-Comenzamos con el desarrollo del modelado, lo primero que tenemos que tenes en cuenta es la imagen de refencia que fue asignada para la creación de este
+Comenzamos con el desarrollo del modelado, lo primero que tenemos que tener en cuenta es la imagen de referencia que fue asignada para la creación de este
 
 ![apartamento](https://user-images.githubusercontent.com/79010465/110733854-aed30380-81f4-11eb-99fe-090f5cf43e06.PNG)
 
-Con esto en mente se comenzo con la creación del apartamento dandonos un modelo bastante bueno y que se veia bien para comenzar 
+Con esto en mente se comenzó con la creación del apartamento dándonos un modelo bastante bueno y que se veía bien para comenzar
+
+![Captura](https://user-images.githubusercontent.com/79010465/111014076-24afaa00-8370-11eb-89de-6d2136c59bb3.PNG)
+
+Se comienza con el desarrollo del apartamento y se asigna unas dimensiones que se ven en la imagen, luego de esto pegamos texturas y vemos en a-frame que tal se ve
 
 
 
-```
-Da un ejemplo
-```
+![Captura2](https://user-images.githubusercontent.com/79010465/111014425-8c1a2980-8371-11eb-9cc2-91a5009809c5.PNG)
 
-_Y repite_
 
-```
-hasta finalizar
-```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+![Captura3](https://user-images.githubusercontent.com/79010465/111014606-7e18d880-8372-11eb-97d3-a0b123ec1605.PNG)
 
-## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
 
-### Analice las pruebas end-to-end 🔩
+Luego de esto hacemos 2 pasos que son colocarle colisiones
 
-_Explica que verifican estas pruebas y por qué_
 
-```
-Da un ejemplo
-```
 
-### Y las pruebas de estilo de codificación ⌨️
+![51iqf8](https://user-images.githubusercontent.com/79010465/111014809-84f41b00-8373-11eb-90b5-0e377c79f367.gif)
 
-_Explica que verifican estas pruebas y por qué_
 
-```
-Da un ejemplo
-```
+Colocarle objetos 3d bajados de manera gratuita de internet en la página https://sketchfab.com/feed donde encontramos modelos en obj y gtlf
 
-## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+![Captura4](https://user-images.githubusercontent.com/79010465/111015153-6a22a600-8375-11eb-99d8-98e47ccf82b1.PNG)
 
-## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+![Captura5](https://user-images.githubusercontent.com/79010465/111015159-6d1d9680-8375-11eb-9d29-2263ca03060d.PNG)
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
-## Contribuyendo 🖇️
+![Captura6](https://user-images.githubusercontent.com/79010465/111015232-d4d3e180-8375-11eb-83e9-3b9846e6a014.PNG)
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
-## Wiki 📖
+![Captura7](https://user-images.githubusercontent.com/79010465/111015237-d8ffff00-8375-11eb-9991-57f5b727575a.PNG)
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
 
-## Versionado 📌
+notamos que los colores tenian ciertos fallos entonces se decidio por cambiar el color del piso y paredes para darle un tono mas oscuro y que las texturas cargaran mejor
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
-## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+![Captura8](https://user-images.githubusercontent.com/79010465/111015774-72c8ab80-8378-11eb-9c1b-5fa09ec27cfd.PNG)
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
-## Licencia 📄
+  
+## Conclusiones Jairo ⚙️
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+_Como grupo estuvimos en etapas de investigación para resolver el entorno virtual del apartamento, decidimos usar ciertos cálculos para posicionar los objetos de manera ordenada. Encontramos buenas texturas de alta definición en algunos modelos dándole cierto realismo al apartamento encontramos errores y soluciones como grupo_
 
-## Expresiones de Gratitud 🎁
+## Conclusiones Juan Camilo 📢
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+_Este trabajo se hizo de manera colectiva y estuvo bastante buena la manera de trabajar a través de GitHub, fue una experiencia gratificante y que en futuros trabajos se tiene que tener en cuenta, adicional a lo anterior debo decir que mi equipo de trabajo fue muy bueno y agradezco su tiempo y dedicación a pesar de que mi computador me presento muchas fallas al inicio_
+
+## Conclusiones Danny Alejandro ☕ 
+
+_Para este proyecto se aprendieron conceptos de realidad virtual para la web además de entender los beneficios y posibilidades de utilizar esta técnica_
+
+## Construido por 🛠️
+
+
+* jairo vergara portocarrero 2151714
+* Juan Camilo Arboleda Garcia 2181056
+* Danny Alejandro Martínez Duque 2185738
+
+
+## Información de importancia 🎁
+
+* Este proyecto fue realizado para la materia de Realidad virtual de la Universidad Autonoma de Occidente 📢
+* Profesor: Cesar Martinez Uribe 🍺  
+* Gracias por la comprensión y los comentarios del proyecto 🤓.
+
 
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por el GRUPO 6 😊
