@@ -38,6 +38,11 @@ Se comienza con el desarrollo del apartamento y se asigna unas dimensiones que s
 ![Captura3](https://user-images.githubusercontent.com/79010465/111014606-7e18d880-8372-11eb-97d3-a0b123ec1605.PNG)
 
 
+Para darle más realismo se colocó un skymap de la pagina https://hdrihaven.com/ al rededor del apartamento que es el siguiente 
+
+
+![hansaplatz_4k-min](https://user-images.githubusercontent.com/79010465/111016186-67767f80-837a-11eb-94ef-ce1f6960e3a8.png)
+
 
 Luego de esto hacemos 2 pasos que son colocarle colisiones
 
