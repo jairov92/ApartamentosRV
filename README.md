@@ -63,7 +63,8 @@ Luego de esto hacemos 2 pasos que son colocarle colisiones
 Colocarle objetos 3d bajados de manera gratuita de internet en la página https://sketchfab.com/feed donde encontramos modelos en obj y gtlf
 
 
-![Captura4](https://user-images.githubusercontent.com/79010465/111015153-6a22a600-8375-11eb-99d8-98e47ccf82b1.PNG)
+![Captura](https://user-images.githubusercontent.com/79010465/111035459-b0fdb380-83e8-11eb-9b67-2419b0a3e18a.PNG)
+
 
 
 ![Captura5](https://user-images.githubusercontent.com/79010465/111015159-6d1d9680-8375-11eb-9d29-2263ca03060d.PNG)
@@ -72,7 +73,12 @@ Colocarle objetos 3d bajados de manera gratuita de internet en la página https:
 ![Captura6](https://user-images.githubusercontent.com/79010465/111015232-d4d3e180-8375-11eb-83e9-3b9846e6a014.PNG)
 
 
-![Captura7](https://user-images.githubusercontent.com/79010465/111015237-d8ffff00-8375-11eb-9991-57f5b727575a.PNG)
+![Captura](https://user-images.githubusercontent.com/79010465/111035514-ec987d80-83e8-11eb-8f72-6140cc653d68.PNG)
+
+
+
+![Captura](https://user-images.githubusercontent.com/79010465/111035419-7c89f780-83e8-11eb-91b6-c5864be64c14.PNG)
+
 
 
 notamos que los colores tenian ciertos fallos entonces se decidio por cambiar el color del piso y paredes para darle un tono mas oscuro y que las texturas cargaran mejor
