@@ -27,6 +27,11 @@ Con esto en mente se comenzó con la creación del apartamento dándonos un mode
 
 ![Captura](https://user-images.githubusercontent.com/79010465/111014076-24afaa00-8370-11eb-89de-6d2136c59bb3.PNG)
 
+
+```
+El modelado del apartamento se realizó en sketchUp
+```
+
 Se comienza con el desarrollo del apartamento y se asigna unas dimensiones que se ven en la imagen, luego de esto pegamos texturas y vemos en a-frame que tal se ve
 
 
@@ -43,6 +48,10 @@ Para darle más realismo se colocó un skymap de la pagina https://hdrihaven.com
 
 ![hansaplatz_4k-min](https://user-images.githubusercontent.com/79010465/111016186-67767f80-837a-11eb-94ef-ce1f6960e3a8.png)
 
+
+```
+https://hdrihaven.com/hdri/?c=night&h=hansaplatz
+```
 
 Luego de esto hacemos 2 pasos que son colocarle colisiones
 
@@ -71,6 +80,35 @@ notamos que los colores tenian ciertos fallos entonces se decidio por cambiar el
 
 
 ![Captura8](https://user-images.githubusercontent.com/79010465/111015774-72c8ab80-8378-11eb-9c1b-5fa09ec27cfd.PNG)
+
+Para finalizar el reporte se realizo las respectivas colisiones de todos los objetos que hay en el apartamento quedando de la siguiente manera
+
+
+
+![51j5s5](https://user-images.githubusercontent.com/79010465/111019069-ea073b00-838a-11eb-9179-0939b77cd95c.gif)
+
+```
+Las colisiones como las de las paredes se hicieron con planos y algunos otros con cajas
+```
+
+
+
+
+## Información adicional  🤓
+Adicionalmente se creó dentro del proyecto una carpeta nueva llamada AR, que en esta contiene la misma información y archivos de objetos que la de la experiencia original, pero con la excepción de que el index está programado para mostrarnos el apartamento desde el techo con la perspectiva de Realidad Aumentada como se ve acontinuación
+
+
+
+![51j6eu](https://user-images.githubusercontent.com/79010465/111019252-fdff6c80-838b-11eb-91f9-3efee53a4271.gif)
+
+
+```
+  Para este proyecto de RA se usó AR.js y A-frame
+```
+
+
+![WhatsApp Image 2021-03-12 at 10 30 21 PM](https://user-images.githubusercontent.com/79010465/111019004-736a3d80-838a-11eb-91ca-b9f5cff1b790.jpeg)
+
 
 
 
